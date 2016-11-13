@@ -1,0 +1,482 @@
+body {
+       font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+       background-color: #36465D;
+}
+      .row{
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+.navbar {
+    background-color: #282828;
+    border-radius: 0px;
+    
+
+}
+
+
+.carousel-inner{
+height: 500px;
+}
+
+.carousel-inner img {
+      
+      margin: auto;
+      min-height:200px;
+  }
+
+
+
+.page-header {
+text-align: left;
+
+}
+
+.container {
+	margin-top: 25px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+
+	
+	 width: 970px;
+    
+	  
+        position: relative;
+    	z-index: 100;
+}
+
+.sectionTitle {
+    display: block;
+    width: 100%;
+    position: relative;
+    float: left;
+    background: #9DA3AA;
+    position: relative;
+    border-left: 15px;
+    border-right: 15px;
+    padding-left: 15px;
+    
+}
+.n{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.post{
+  background-color: #9DA3AA;
+}
+
+.post_avatar{
+  
+  margin-bottom: 20px;
+  float: right;
+}
+
+.post hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-top: 45px;
+}
+.post p{
+  margin-bottom: 0px;
+}
+
+.well{
+background-color: #3F67C0;
+
+}
+.well h4{
+  padding-left: 15px;
+}
+
+.well li{
+  display: block;
+    width: 100%;
+    position: relative;
+    float: left;
+    background: #9DA3AA;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 4px 20px;
+}
+
+.btn-twitter {
+    background: #00acee;
+    border-radius: 5;
+    color: #fff
+}
+.btn-twitter:link, .btn-twitter:visited {
+    color: #fff
+}
+.btn-twitter:active, .btn-twitter:hover {
+    background: #0087bd;
+    color: #fff
+}
+.btn-facebook {
+    background: #3b5998;
+    border-radius: 5;
+    color: #fff
+}
+.btn-facebook:link, .btn-facebook:visited {
+    color: #fff
+}
+.btn-facebook:active, .btn-facebook:hover {
+    background: #30477a;
+    color: #fff
+}
+.btn-googleplus {
+    background: #e93f2e;
+    border-radius: 5;
+    color: #fff
+}
+.btn-googleplus:link, .btn-googleplus:visited {
+    color: #fff
+}
+.btn-googleplus:active, .btn-googleplus:hover {
+    background: #ba3225;
+    color: #fff
+}
+
+
+.levo{
+  margin-top: 50px;
+}
+
+.desno{
+	margin-top: 50px;
+
+}
+
+.desno h3{
+  background-color: #3F67C0;
+  margin-bottom: 0px; 
+}
+
+.btn{
+  padding-left: 0px;
+}
+
+.btn-group{
+margin-bottom: 20px;
+padding-top: 20px;
+}
+
+/*---news-tags----*/
+.latest-news-tab-grid{
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor:pointer;
+}
+.frist-news-grid{
+  background:#E1E2E9;
+  margin-bottom: 1px;
+  margin: 0.7em 0;
+  cursor:pointer;
+  width: 283.328px;
+}
+.frist-news-grid:last-child{
+  margin-bottom:0;
+  margin-top:1em;
+}
+.news-tabs li {
+  list-style: none;
+  display: inline;
+  float: left;
+  width: 49.8%;
+  text-align: center;
+}
+.news-tabs li:first-child{
+  border-right: 1px solid rgba(144, 149, 170, 0.22);
+}
+.news-tabs a {
+  padding: 16px 54px;
+  display: inline-block;
+  color: #3F67C0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.news-tabs a.active {
+  color: #FFF;
+  background: #3F67C0;
+  padding: 1em 0;
+  display: block;
+}
+.news-tabs{
+  background: #fff;
+  border-bottom: 1px solid rgba(144, 149, 170, 0.22);
+}
+.latest-news-tab-grid-pic{
+  float:left;
+  width: 40%;
+}
+.latest-news-tab-grid-pic img{
+  display:block;
+  width:100%;
+}
+.latest-news-tab-grid-info{
+  float: right;
+  width: 57%;
+  padding: .3em 0;
+}
+.latest-news-tab-grid-info p{
+  font-size: 0.875em;
+  color: #0F112A;
+  width: 97%;
+  line-height: 1.5em;
+}
+.second-news-grid{
+  background:#E1E2E9;
+}
+.latest-news-tab-grid:hover{
+  background:#0F112A;
+  color:#FFF;
+}
+.latest-news-tab-grid:hover .latest-news-tab-grid-info p{
+  color:#FFF;
+}
+/*----tabs-right---*/
+.tabs-cal-social{
+  float: right;
+  width: 30%;
+  margin-top: 1em;
+}
+.tabs-right{
+  background-color: #fff;
+  width: 283,328px;
+}
+
+.jp-playlist{
+  background-color: #3F67C0;
+}
+
+
+.footer-grids{
+  background: #282828;
+    padding: 3em 3em;
+    width: 940px;
+}
+p.footer-gd {
+    color: #908F8F;
+    font-weight: 500;
+  font-size:14px;
+}
+p.footer-gd a {
+  color:#fff;
+}
+p.footer-gd a:hover {
+  color: #2e99ff;
+}
+.footer{
+  background-color: #282828;
+  float:left;
+}
+.footer h3{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 32px;
+    font-family: 'Viga', sans-serif;
+}
+.prva {
+    width: 37%;
+}
+p.adam{
+  float:right;
+  color:#6F6E6E !important;
+  font-size:13px !important;
+  margin-top:20px;
+}
+.treca {
+    width: 23%;
+}
+.prva p{
+  color:#908F8F;
+  line-height:2em;
+  font-size:14px;
+}
+.druga {
+    width: 23%;
+    margin: 0 8%;
+}
+.druga ul{
+  margin:0;
+  padding:0;
+}
+.druga ul li{
+  list-style-type:none;
+  display:block;
+    line-height: 1.5em;
+  font-size:14px;
+}
+.druga ul li a{
+color:#908F8F;  
+display:block;
+}
+.druga ul li a.fb {
+  background: url('imagesf/social2.png') no-repeat 0px 4px;  
+    padding: 10px 0 12px 52px;
+}
+.druga li a.fb1 {
+  background: url('imagesf/social1.png') no-repeat 0px 4px;
+    padding: 10px 0 12px 52px;
+}
+.druga ul li a.fb2 {
+    background: url('imagesf/social3.png') no-repeat 0px 4px;
+    padding: 10px 0 12px 52px;
+}
+.treca ul li {
+    list-style-type: none;
+    display: block;
+    color: #908F8F;
+    font-size: 14px;
+    line-height: 2.5em;
+}
+.treca ul li span {
+    display: block;
+}
+.treca ul li:nth-child(1) {
+    background: url('imagesf/icon2.png') no-repeat 0px 6px;
+    padding-left: 38px;
+}
+.treca ul li:nth-child(2) {
+    background: url('imagesf/icon3.png') no-repeat 0px 6px;
+    padding-left: 38px;
+}
+.treca ul li a {
+    background: url('imagesf/icon1.png') no-repeat 0px 6px;
+    padding-left: 38px;
+    display: block;
+  color:#908F8F;
+}
+
+.druga ul li a.fb:hover {
+    background: url('imagesf/social3hover.png') no-repeat 0px 4px;
+}
+.druga ul li a.fb1:hover {
+    background: url('imagesf/social2hover.png') no-repeat 0px 4px;
+}
+.druga ul li a.fb4:hover {
+    background: url('imagesf/social1hover.png') no-repeat 0px 4px;
+}
+.druga ul li a:hover,.copy-right ul li a:hover,.footer.three ul li a:hover{
+  color:#2e99ff;
+}
+
+.treca ul{
+  padding-left: 0px;
+}
+
+
+
+.video-share ul li{
+  display:inline-block;
+}
+.video-share ul li img{
+  padding:0px 2px;
+}
+.video-share {
+  float:left;
+}
+.video-watch{
+  float:right;
+  padding-top: 2.5px;
+}
+.video-watch img{
+  vertical-align:middle;
+  padding: 5px 5px 7px 5px;
+}
+.grids{
+  margin-top:14px;
+}
+.grids2{
+  margin-top:10px;
+}
+.grid{
+  width:30%;
+  padding: 7px;
+  border: 1px solid rgb(230, 230, 230);
+  float:left;
+}
+.grid2 {
+  width: 30.326%;
+}
+.grid h3,.video-watch a,.grid1 h3{
+  font-size: 0.89em;
+  font-family: 'Ropa Sans', sans-serif;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.grid h3{
+  margin-bottom:5px;
+  font-size: 0.9em;
+}
+.video-watch a,.lables p a{
+  color:rgb(30, 93, 173);
+}
+.lables a{
+  padding-left:4px;
+}
+.lables p{
+  font-size: 0.89em;
+  font-family: 'Ropa Sans', sans-serif;
+  color: #BBBBBB;
+}
+.lables p a:hover{
+  color:#555;
+}
+.grid:nth-child(2),.grid:nth-child(5),.grid:nth-child(8){
+  margin:0px 14.5px;
+}
+
+ul.dc_pagination {
+  font: 12px 'Tahoma';
+  height: 100%;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 21px 0px 0px 0px;
+}
+ul.dc_pagination li:first-child {
+  margin-left: 0px;
+}
+ul.dc_paginationA03 li a {
+  background: #FFFFFF;
+  border: solid 1px #DCDCDC;
+  border-radius: 3px;
+  color: #707070 !important;
+  -moz-border-radius: 3px;
+  padding: 6px 9px 6px 9px;
+  -webkit-border-radius: 3px;
+  color: #000000 !important;
+  display: block;
+  padding: 7px 10px 7px 10px;
+  text-decoration: none;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 1.25em;
+}
+
+ul.dc_pagination li {
+  float: left;
+  margin: 0px;
+  margin-left: 5px;
+  padding: 0px;
+}
+ul.dc_paginationA03 li a:hover, ul.dc_paginationA03 li a.current {
+  background: rgb(30, 93, 173);
+  color: #fff !important;
+  
+}
+
+.video-share ul{
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.lables p{
+  background-color: #3F67C0;
+}
